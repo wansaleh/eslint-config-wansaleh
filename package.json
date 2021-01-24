@@ -13,7 +13,7 @@
     "tape": "^5.1.1"
   },
   "peerDependencies": {
-    "babel-eslint": "^10.1.0",
+    "eslint": "^7.18.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^7.2.0",
     "eslint-import-resolver-alias": "^1.1.2",
@@ -25,12 +25,12 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint": "^7.18.0"
+    "eslint-plugin-simple-import-sort": "^7.0.0"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
     "react"
-  ]
+  ],
+  "dependencies": {}
 }
