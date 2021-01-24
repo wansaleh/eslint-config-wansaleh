@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-wansal",
+  "name": "eslint-config-wansaleh",
   "version": "1.0.0",
   "description": "My personal eslint config. Mainly for React development.",
   "main": "index.js",
