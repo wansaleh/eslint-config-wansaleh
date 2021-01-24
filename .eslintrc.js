@@ -12,7 +12,7 @@ module.exports = {
     node: true,
   },
   extends: ['airbnb', 'prettier', 'prettier/react'],
-  // parser: 'babel-eslint',
+  parser: 'babel-eslint',
   plugins: ['simple-import-sort'],
   globals: {
     graphql: false,
