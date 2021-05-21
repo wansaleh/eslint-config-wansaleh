@@ -1,7 +1,7 @@
 module.exports = {
   extends: ['airbnb', 'prettier'],
   parserOptions: { ecmaVersion: 2020 },
-  plugins: ['simple-import-sort'],
+  plugins: ['react-hooks', 'simple-import-sort'],
   globals: {
     graphql: false,
     tw: true,
