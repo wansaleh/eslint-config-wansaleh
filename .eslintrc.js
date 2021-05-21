@@ -7,7 +7,7 @@ module.exports = {
     tw: true,
     document: true,
     window: true,
-    fetch: true,
+    fetch: true
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 2 : 0,
@@ -22,6 +22,14 @@ module.exports = {
     'import/no-dynamic-require': 0,
     'import/no-extraneous-dependencies': 0,
     'import/prefer-default-export': 0,
+    'jsx-a11y/anchor-is-valid': [
+      2,
+      {
+        components: ['Link'],
+        specialLink: ['to'],
+        aspects: ['invalidHref', 'preferButton']
+      }
+    ],
     'jsx-a11y/click-events-have-key-events': 0,
     'jsx-a11y/href-no-hash': 0,
     'jsx-a11y/label-has-for': 0,
@@ -31,6 +39,12 @@ module.exports = {
     'no-empty': 0,
     'no-param-reassign': 0,
     'no-underscore-dangle': 0,
+    'no-unused-expressions': [
+      1,
+      {
+        allowTaggedTemplates: true
+      }
+    ],
     'no-use-before-define': 0,
     'no-useless-concat': 0,
     'operator-linebreak': 0,
@@ -50,21 +64,9 @@ module.exports = {
     'react/require-default-props': 0,
     'react/sort-comp': 0,
     'template-curly-spacing': 0,
-    'jsx-a11y/anchor-is-valid': [
-      2,
-      {
-        components: ['Link'],
-        specialLink: ['to'],
-        aspects: ['invalidHref', 'preferButton'],
-      },
-    ],
-    'no-unused-expressions': [
-      1,
-      {
-        allowTaggedTemplates: true,
-      },
-    ],
-    'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error',
-  },
+    'react-hooks/rules-of-hooks': 2, // Checks rules of Hooks
+    'react-hooks/exhaustive-deps': 1,
+    'simple-import-sort/imports': 2,
+    'simple-import-sort/exports': 2
+  }
 };
