@@ -4,7 +4,6 @@ module.exports = {
   plugins: ['react-hooks', 'simple-import-sort'],
   globals: {
     graphql: false,
-    tw: true,
     document: true,
     window: true,
     fetch: true
