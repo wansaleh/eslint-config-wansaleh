@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wansaleh",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "My personal eslint config. Mainly for React development.",
   "main": "index.js",
   "author": "wansaleh@gmail.com",
